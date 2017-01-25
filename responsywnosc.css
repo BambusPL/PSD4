@@ -1,6 +1,8 @@
 @media only screen and (max-width: 767px) {
     #zdj-fluid .kolumna-sm {
         flex-wrap: nowrap;
+        margin-right: 0;
+        margin-left: 0;
     }
     .kolumna2 {
         display: none;
