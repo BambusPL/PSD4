@@ -93,6 +93,11 @@
         padding-left: 15%;
     }
     
+    footer .kolumna{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
 }
 
 @media (min-width:768px ) and (max-width: 991px){
