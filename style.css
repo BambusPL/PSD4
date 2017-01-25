@@ -33,6 +33,17 @@ body {
     -o-transition: all 1s;
 }
 
+.navbar .navbar-brand:hover{
+    color: #fce38a;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
 #navbarNav ul li{
     padding-left: 15px;
     padding-right: 15px;
@@ -93,9 +104,16 @@ header .btn {
     border-radius: 0;
 }
 
+header .btn:hover{
+    background: transparent;
+    border: 3px solid #95e1d3;
+}
+
 .przycisk-header {
     padding-bottom: 230px;
 }
+
+
 
 
 /*====== sekcja co potrafimy=====*/
@@ -914,6 +932,19 @@ footer h3{
 .podpis h5{
     font-size: 12px;
     text-transform: uppercase;
+}
+
+.podpis p{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.podpis a{
+    text-decoration: none;
+}
+
+.podpis a:hover{
+     color: #db5e5e;
 }
 
 
