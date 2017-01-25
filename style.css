@@ -11,10 +11,40 @@ body {
     position: relative;
 }
 
+.kolumna{
+    flex-wrap: nowrap;
+}
+
+
+
 .vertical-align {
     position: relative;
     top: 50%;
     transform: translateY(-50%)/*trick do srodkowania, klase dodajemy*/
+}
+
+/*==== menu===*/
+
+.menu{
+   background: transparent;
+    transition: all 1s;
+      -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#navbarNav ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+#navbarNav ul li a{
+    color: #fff;
+}
+
+#navbarNav ul li a:hover{
+    color: #fce38a;
 }
 
 
@@ -156,6 +186,15 @@ header .btn {
 .zdjecia-overlay p {
     color: #fff;
 }
+
+.container-zdjecia p{
+    color: #fff;
+}
+
+.container-zdjecia p:hover{
+    color: #fff;
+}
+
 
 
 /*========== sekcja liczby========*/
@@ -740,6 +779,155 @@ a {
     margin: 0 auto;
     
 }
+
+
+/*==== stopka =====*/
+
+footer .col-md-4{
+    padding: 0;
+}
+
+footer .insta-zdjecia img{
+    width: 98%;
+    height: 98%
+}
+
+footer .stopka-logo{
+    padding-right: 15px;
+}
+
+footer .container{
+    padding-top: 75px;
+}
+
+.stopka-logo h2{
+    color: #cccccc;
+    font-size: 46px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.stopka-logo h4{
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.stopka-logo p{
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+.stopka-logo span{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.stopka-logo i{
+    color: #95e1d3;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.follow h6{
+    display: inline;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+}
+
+.follow{
+    padding-bottom: 30px;
+}
+
+
+.input-email{
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #ccc;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.input-email:active,
+.input-email:focus,
+.input-email:hover{
+    border: 1px solid #95e1d3;
+    box-shadow: none;
+}
+
+.input-submit{
+    height: 40px;
+    display: inline;
+    background-color: #95e1d3;
+    width: 140px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+}
+
+footer .opis{
+    padding-left: 140px;
+}
+
+footer .opis p{
+    font-size: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer .opis span{
+    color: #ccc;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    
+}
+
+footer .opis img{
+    position: absolute;
+    left: 0;
+    
+}
+
+footer .tekst{
+    padding-bottom: 40px;
+}
+
+footer h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.podpis h5{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
