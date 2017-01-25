@@ -17,6 +17,10 @@
         box-shadow: none;
     }
     
+     header h1{
+        font-size: 30px;
+    }
+    
     .navbar-brand{
         margin-right: 250px;
     }
@@ -83,9 +87,7 @@
         top: 160px;
     }
     
-    header h1{
-        font-size: 30px;
-    }
+   
     
     footer .stopka-logo{
        margin-bottom: 50px;
