@@ -23,7 +23,11 @@
         text-align: center;
     }
     
-
+.input-submit{
+        left: 0;
+        bottom: -45px;
+        
+    }
 
     #co-potrafimy img,
     .zdjecia-overlay {
