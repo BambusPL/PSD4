@@ -38,6 +38,10 @@
         bottom: -45px;
         
     }
+    
+    .input-email{
+        width: 40px;;
+    }
 
     #co-potrafimy img,
     .zdjecia-overlay {

@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-y: scroll;
@@ -515,6 +520,10 @@ a {
     text-align: center;
     margin: 0 auto;
   display: inline-block;
+    
+}
+
+#zespol .zdjecia-overlay .row{
     
 }
 
